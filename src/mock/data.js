@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi visitor! We are',
+  name: 'AnyMotion Studio',
+  subtitle: 'Creative motherfuckers here yo',
+  cta: 'Ready?',
 };
 
 // ABOUT DATA
@@ -29,11 +29,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'SSsssssskkkkkkrrrrrrr title',
+    info: 'this is info',
+    info2: 'this is info 2',
+    url: 'https://www.google.com',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -90,5 +90,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
